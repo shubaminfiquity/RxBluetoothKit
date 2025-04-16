@@ -253,6 +253,10 @@
 		4CB9A0A2204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9A0A1204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift */; };
 		4CB9A0A3204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9A0A1204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift */; };
 		4CB9A0A4204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9A0A1204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift */; };
+		76208B9A2DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 76208B992DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy */; };
+		76208B9B2DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 76208B992DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy */; };
+		76208B9C2DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 76208B992DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy */; };
+		76208B9D2DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 76208B992DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy */; };
 		A10F298A1CDCD6E100593284 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5A1CCE65CD005E81CE /* RxSwift.framework */; };
 		A10F298B1CDCD6E400593284 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5E1CCE65EE005E81CE /* RxSwift.framework */; };
 		A10F29AD1CDCD98400593284 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5A1CCE65CD005E81CE /* RxSwift.framework */; };
@@ -404,6 +408,7 @@
 		4CB504532046CDA900031AA7 /* _Peripheral+Convenience.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "_Peripheral+Convenience.generated.swift"; sourceTree = "<group>"; };
 		4CB9A09D2044166400FF9516 /* PeripheralTest+CharacteristicsDiscover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PeripheralTest+CharacteristicsDiscover.swift"; sourceTree = "<group>"; };
 		4CB9A0A1204447B200FF9516 /* PeripheralTest+CharacteristicOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PeripheralTest+CharacteristicOperation.swift"; sourceTree = "<group>"; };
+		76208B992DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A10F29911CDCD72200593284 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = SOURCE_ROOT; };
 		A10F29921CDCD72200593284 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = SOURCE_ROOT; };
 		A10F29991CDCD73A00593284 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
@@ -807,6 +812,7 @@
 		A1299BD71CBE3D61005DEA5B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				76208B992DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy */,
 				1D73E84D20A42F98009167AA /* Central */,
 				1D6E36D420A07F1F009900A6 /* PeripheralManager */,
 				1DD922CC20A06FFD00EFC35F /* Manager */,
@@ -1079,6 +1085,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76208B9D2DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1086,6 +1093,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76208B9A2DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1100,6 +1108,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76208B9C2DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,6 +1123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76208B9B2DAFBA3E00AEB7C5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
